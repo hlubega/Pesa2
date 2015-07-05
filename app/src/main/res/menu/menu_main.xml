@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_addincome" android:title="@string/menu_addInc_label"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_addexpense" android:title="@string/menu_addExp_label"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_categories" android:title="@string/menu_categories"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_budgetset1" android:title="@string/menu_budgets1"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_budgetoverview" android:title="@string/menu_budgetsoverview_title"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_reports" android:title="@string/menu_report_label"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/menu_about"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Category"
+        android:textColor="#ff7e00"
+        android:textSize="24sp"
+        android:id="@+id/tvCategoryBudget" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerBudgetCat"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="From"
+            android:textColor="#ff7e00"
+            android:id="@+id/textView3"
+            android:layout_weight="50"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="To"
+            android:textColor="#ff7e00"
+            android:id="@+id/textView4"
+            android:layout_weight="50"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edDateBudgetFrom"
+            android:layout_weight="50"
+            android:textColor="@color/accent_material_light"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/edDateTo"
+            android:textColor="@color/accent_material_light"
+            android:layout_weight="50"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Amount"
+        android:textColor="#ff7e00"
+        android:id="@+id/textView5"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edBudgetAmount"
+        android:hint="0"
+        android:textColorHint="@color/accent_material_light"
+        android:layout_marginTop="10sp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:text="Save"
+            android:id="@+id/btnBudgetSave"
+            android:layout_weight="50"
+            android:textSize="20sp"
+            android:background="#b9d10a"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

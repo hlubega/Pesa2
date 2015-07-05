@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="h4m.fbh.com.pesa" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Overview"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TotalExpenses"
+            android:label="Total Expenses"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".AddIncome"
+            android:label="Income"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINAC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".AddExpense"
+            android:label="Expenses"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINAC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".BudgetOverview"
+            android:label="Budgets"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINAC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".AddCategories"
+            android:label="Add Categories"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINAC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".Reports"
+            android:label="@string/title_activity_reports"
+            android:parentActivityName=".Overview" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".Overview" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".Budgets1"
+            android:label="@string/title_activity_budgets1"
+            android:parentActivityName=".Overview" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Overview" />
+        </activity>
+        <activity
+            android:name=".SQLinfo"
+            android:label="@string/title_activity_sqlinfo" >
+        </activity>
+        <activity
+            android:name=".Trial"
+            android:label="@string/title_activity_trial" >
+        </activity>
+        <activity
+            android:name=".ExpensesByCat"
+            android:label="@string/title_activity_expenses_by_cat"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity
+            android:name=".ExpDailyReport"
+            android:label="@string/title_activity_dailyreport"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity
+            android:name=".ExpWeeklyReport"
+            android:label="@string/title_activity_weeklyreport_exp"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity
+            android:name=".IncMonthlyReport"
+            android:label="@string/title_activity_monthlyreport_exp"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity
+            android:name=".IncomeCatReport"
+            android:label="@string/title_activity_incomecategory_report"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity
+            android:name=".IncDailyReport"
+            android:label="@string/title_activity_income_daily_report"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity
+            android:name=".IncomeWeeklyReport"
+            android:label="@string/title_activity_income_weekly_report"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+        <activity
+            android:name=".ExpMonthlyReport"
+            android:label="@string/title_activity_income_monthly_report"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Reports" />
+        </activity>
+    </application>
+
+</manifest>

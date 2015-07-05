@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Total Expenses"
+        android:id="@+id/tvTotalExpenses"
+        android:layout_margin="30dp"
+        android:textSize="25sp"
+        android:textColor="#363636"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Dates"
+        android:id="@+id/tvDateSelect"
+        android:layout_below="@+id/tvTotalExpenses"
+        android:layout_alignLeft="@+id/tvTotalExpenses"
+        android:layout_alignStart="@+id/tvTotalExpenses"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDateSelect"
+        android:layout_alignLeft="@+id/tvDateSelect"
+        android:layout_alignStart="@+id/tvDateSelect"
+        android:layout_marginTop="15dp"
+        android:weightSum="100"
+        android:id="@+id/linearLayout6">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="From"
+            android:id="@+id/tvFrom"
+            android:layout_weight="50"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="To"
+            android:id="@+id/tvTo"
+            android:layout_weight="50"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/linearLayout6"
+        android:layout_alignStart="@+id/linearLayout6"
+        android:weightSum="100"
+        android:layout_marginTop="25dp"
+        android:id="@+id/linearLayout7">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/edTotalExpensesDateFrom"
+            android:layout_weight="50"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/edTotalExpensesTo"
+            android:layout_weight="50"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvTotalExpensesAmount"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_alignLeft="@+id/linearLayout7"
+        android:layout_alignStart="@+id/linearLayout7"
+        android:layout_marginTop="51dp" />
+
+
+</RelativeLayout>

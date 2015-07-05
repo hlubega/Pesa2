@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="12dp"
+    android:weightSum="1"
+    android:background="@drawable/bg_allactivities"
+    tools:context=".Reports">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Expenses Report"
+        android:id="@+id/textView9"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+         />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Expenses By Category"
+        android:id="@+id/btnExpByCat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp"
+        android:background="#99CC00"
+        android:textSize="20sp"/>
+    <!--@color/material_blue_grey_800-->
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Daily Report"
+        android:id="@+id/btnExpDaily"
+        android:background="#ff7e00"
+        android:layout_below="@+id/btnExpByCat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Weekly Report"
+        android:background="#99CC00"
+        android:id="@+id/btnExpWkRep"
+        android:layout_below="@+id/btnExpDaily"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Income Report"
+        android:id="@+id/tvIncomeReport"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnExpMnthRep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFF"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Income By Category"
+        android:background="#b9d10a"
+        android:id="@+id/btnIncCatRep"
+        android:layout_below="@+id/tvIncomeReport"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Daily Report"
+        android:background="#ff7e00"
+        android:id="@+id/btnIncDailyRep"
+        android:layout_below="@+id/btnIncCatRep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Monthly Report"
+        android:background="#ff7e00"
+        android:id="@+id/btnExpMnthRep"
+        android:layout_below="@+id/btnExpWkRep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Weekly Report"
+        android:background="#b9d10a"
+        android:id="@+id/btnIncWkRep"
+        android:layout_below="@+id/btnIncDailyRep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="Monthly Report"
+        android:id="@+id/btnIncMnthRep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnIncWkRep"
+        android:background="#ff7e00"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

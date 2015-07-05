@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/budgets_title"
+        android:id="@+id/budget_label"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="#363636"
+        />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="12dp"
+        android:background="#b9d10a"
+        android:layout_marginTop="15dp"
+        >
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/budget_cat"
+            android:id="@+id/tvbudgetCat"
+            android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff7e00"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="7dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spentAmount"
+        android:weightSum="100"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Budget"
+            android:id="@+id/textView2"
+            android:layout_weight="50"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" "
+            android:id="@+id/tvBudgetAmount"
+            android:layout_weight="50"
+            android:textSize="20sp"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/budgetAmount"
+        android:weightSum="100"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Spent"
+            android:id="@+id/tvSpent"
+            android:layout_weight="50"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" "
+            android:id="@+id/tvSpentAmount"
+            android:layout_weight="50"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/balanceAmount"
+        android:weightSum="100"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Balance"
+            android:id="@+id/tvBalance"
+            android:layout_weight="50"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" "
+            android:id="@+id/tvBalanceAmount"
+            android:layout_weight="50"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pesa</string>
+    <string name="payer_inc">Payer</string>
+    <string name="amount_inc">Amount</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="income_spinner">
+        <item>Salary</item>
+        <item>Pocket Money</item>
+        <item>Investment</item>
+        <item>Allowance</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="add_cat_savebtn">Save</string>
+    <string name="add_cat_cancelbtn">Cancel</string>
+    <string name="menu_report_label">Reports</string>
+    <string name="menu_addInc_label">Add Income</string>
+    <string name="menu_addExp_label">Add Expense</string>
+    <string name="menu_budgets1">Set Budgets</string>
+    <string name="menu_categories">Add Categories</string>
+    <string name="menu_about">About</string>
+
+    <string-array name="addCat">
+        <item>Income</item>
+        <item>Expenses</item>
+    </string-array>
+
+    <string name="reports_exp_label">Expenses Report</string>
+    <string-array name="expenseCategory_spinner">
+        <item>Rent</item>
+        <item>Airtime</item>
+        <item>Fuel</item>
+        <item>Medical</item>
+        <item>Personal</item>
+        <item>Tax</item>
+        <item>Boda Boda</item>
+        <item>Donations</item>
+        <item>Lunch</item>
+        <item>Breakfast</item>
+        <item>supper/Dinner</item>
+        <item>Gifts</item>
+        <item>Insurance</item>
+        <item>Groceries</item>
+        <item>Investment</item>
+        <item>Entertainment</item>
+        <item>Taxi</item>
+        <item>Special</item>
+        <item>Electricity</item>
+        <item>Water</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="expenseCategoryBudgets_spinner">
+        <item>All</item>
+        <item>Rent</item>
+        <item>Airtime</item>
+        <item>Fuel</item>
+        <item>Medical</item>
+        <item>Personal</item>
+        <item>Tax</item>
+        <item>Boda Boda</item>
+        <item>Donations</item>
+        <item>Lunch</item>
+        <item>Breakfast</item>
+        <item>supper/Dinner</item>
+        <item>Gifts</item>
+        <item>Insurance</item>
+        <item>Groceries</item>
+        <item>Investment</item>
+        <item>Entertainment</item>
+        <item>Taxi</item>
+        <item>Special</item>
+        <item>Electricity</item>
+        <item>Water</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="status_spinner">
+        <item>Cleared</item>
+        <item>Not Cleared</item>
+    </string-array>
+
+    <string name="budgets_title">Budget</string>
+    <string name="menu_budgetsoverview_title">Budget Review</string>
+    <string name="budget_cat">Budget Category</string>
+    <string name="title_activity_reports">Reports</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">Pesa</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_budgets1">Budget Set</string>
+    <string name="title_activity_sqlinfo">SQLinfo</string>
+    <string name="title_activity_trial">trial</string>
+    <string name="title_activity_expenses_by_cat">ExpensesByCat</string>
+    <string name="title_activity_dailyreport">Daily Report</string>
+    <string name="title_activity_weeklyreport_exp">Weekly Report</string>
+    <string name="title_activity_monthlyreport_exp">Monthly Report</string>
+    <string name="title_activity_incomecategory_report">incomecategory_report</string>
+    <string name="title_activity_income_daily_report">Income Daily Report</string>
+    <string name="title_activity_income_weekly_report">Income Weekly Report</string>
+    <string name="title_activity_income_monthly_report">Income Monthly Report</string>
+    <string name="aboutUs">Brains behind the app. Ham, Fatma and Ben.</string>
+    <string name="contacts">Help us improve, send your suggestions to; </string>
+    <string name="email1">lubegah@gmail.com</string>
+    <string name="email2">fatmahrembo@gmail.com</string>
+    <string name="email3">okot24@gmail.com</string>
+
+
+</resources>
