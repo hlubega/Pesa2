@@ -2,14 +2,12 @@ package h4m.fbh.com.pesa;
 
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 /**
@@ -25,6 +23,15 @@ public class Overview extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_overview);
+        Utils.log("onCreate() Overview");
+        Utils.log("Start of day : " + Utils.getStartOfDayStamp());
+        Utils.log("End of Day : " + Utils.getEndOfDayStamp());
+
+        Utils.log("Start of week : " + Utils.getStartOfWeekStamp());
+        Utils.log("End of week : " + Utils.getEndOfWeekStamp());
+
+        Utils.log("Start of month: " + Utils.getStartOfMonthStamp());
+        Utils.log("End of Month : " + Utils.getEndOfMonthStamp());
 
         addExpense = (Button) findViewById(R.id.btnAddExpense);
         addIncome = (Button) findViewById(R.id.btnAddIncome);

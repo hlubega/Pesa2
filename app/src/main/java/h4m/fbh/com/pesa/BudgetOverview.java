@@ -14,7 +14,8 @@ public class BudgetOverview extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.budgets_overview);
+        //setContentView(R.layout.budgets_overview);
+        Utils.log("onCreate()");
     }
 
     @Override
